@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>html2canvas Try</title>
+    <script src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./html2canvas.min.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<div class="modal-wrap" id="modalWrap">
+    <div class="modal" id="cutTarget">
+        <h4 class="modal-title">我是标题</h4>
+        <div class="modal-content">我是内容</div>
+        <div class="modal-mid-content">
+            <div class="modal-left-info">
+                <p class="left-info-title">小标题</p>
+                <p class="left-info-content">小标题内容</p>
+                <p class="left-info-title">小标题</p>
+                <p class="left-info-content">小标题内容</p>
+            </div>
+            <div class="modal-right-qr">
+                <img id="modalQrCode" src="./qrCode.png" alt="">
+            </div>
+        </div>
+        <div class="modal-btm-content">
+            我是下方的内容
+            我是下方的内容
+            我是下方的内容
+            我是下方的内容
+            我是下方的内容
+            我是下方的内容
+            我是下方的内容
+            我是下方的内容
+            我是下方的内容
+        </div>
+    </div>
+    <button id="cutModal">保存图片</button>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
